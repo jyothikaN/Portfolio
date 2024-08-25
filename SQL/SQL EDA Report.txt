@@ -1,0 +1,34 @@
+Netflix Data Exploration
+Problem Statement
+The objective of this project is to conduct an exploratory data analysis of Netflix content using SQL. To analyze a dataset from Kaggle to explore various aspects of Netflix's content landscape. This analysis aims to examine the distribution of content by genre, country, release year, content type (movie or TV show), and rating. Additionally, we seek to uncover patterns related to directors, the duration of movies and TV shows, and how content trends have evolved. By querying and analyzing this dataset, we aim to gain deeper insights into Netflix's content offerings and the shifts in content patterns over the years.
+
+
+Dataset Description
+
+Title: The title of the content.
+Country: The country where the content was produced.
+Content Type: Whether the content is a 'Movie' or 'TV Show'.
+Release Year: The year the content was released.
+Rating: The rating of the content (e.g., PG, TV-MA, etc.).
+Total Duration: The total duration of the content, which represents the length of movies in minutes and the number of seasons for TV shows.
+Director: The director of the content.
+Year Added: The year the content was added to Netflix.
+This dataset enables the exploration of various aspects of Netflix’s content library.
+
+Insights:
+1. 2017 and 2018 had the highest number of movie releases (767 each), while 2020 saw the highest TV show releases (436).
+2. 2018 had the most overall content releases across both movies and TV shows.
+3. The United States released the most content on Netflix, followed by India. Interestingly, a significant amount of content is listed under "Unknown" country.
+4. The UK, Japan, South Korea, Taiwan, and Australia produced more TV shows than movies, highlighting regional content trends.
+5. There are 15 unique ratings, with 10 applied to TV shows and 15 to movies.
+6. The most commonly rated content released on Netflix is "TV-MA". This indicates that Netflix's primary target audience is adults (18+). 
+7. The "NC-17" rating had the fewest content entries, along with some unknown ratings.
+8. "Black Mirror: Bandersnatch" is the longest movie on Netflix, with a duration of 312 minutes.
+9. "Silent" is the shortest film, with a runtime of 3 minutes.
+10. The most common movie length is around 1 hour and 30 minutes (152 movies).
+11. "Grey's Anatomy" is the longest TV show on Netflix, spanning 17 seasons.
+12. The majority of TV shows on Netflix (1,793) have only one season.
+13. Rajiv Chilaka directed the most movies on Netflix.
+14. Alastair Fothergill directed the most TV shows on Netflix.
+15. Netflix releases most content towards the end or start of the year. However, 2021 shows an exception as the data only goes up to September.
+16.  Netflix's content leans more towards TV shows in countries like the UK, Japan, and South Korea, while the US and India are more movie-centric.

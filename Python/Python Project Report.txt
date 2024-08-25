@@ -1,0 +1,59 @@
+Business Problem:
+
+Retail World, a well-established retail company with a wide range of products, has been serving customers across various countries. The company prioritizes customer satisfaction and aims to provide a seamless shopping experience. However, Retail World is currently facing challenges due to factors such as increased competition, shifting consumer preferences, and rising operational costs. To tackle this challenge, Retail World is looking to conduct an analysis of its retail transactions dataset to find ways to increase sales, optimize marketing strategies, and improve overall customer satisfaction.
+
+Tasks:
+
+1. Exploratory Data Analysis (EDA): Identify sales trends, popular products, and customer behaviours.¶
+2. Predictive Market Basket Analysis: Improve product recommendations and promotions by understanding purchasing patterns.
+3. Recency, Frequency, Monetary (RFM) Analysis: Segment customers to tailor marketing strategies and increase customer retention.
+
+Dataset Description:
+
+InvoiceNo: A unique invoice number, with invoices starting with 'c' indicating cancellations.
+StockCode: A unique product/item code.
+Description: The product/item name.
+Quantity: Number of units of the product per transaction.
+InvoiceDate: Date and time of the transaction.
+UnitPrice: Product price per unit in GBP (£).
+CustomerID: A unique customer number.
+Country: The country of the customer.
+
+EDA
+
+1. The dataset contains 1,067,371 transaction records spanning from 2009 to 2011, with 8 attributes detailing product sales across multiple countries.
+2. White Hanging Heart T-Light Holder, Manual, and Jumbo Bag Red Retrospot are the top products by revenue, generating £247,048.01, £151,777.67, and £134,307.44 respectively.
+3. The top three products by quantity sold are White Hanging Heart T-Light Holder, Jumbo Bag Red Retrospot, and Jumbo Bag Strawberry.
+4. The most frequently sold products are White Hanging Heart T-Light Holder, Jumbo Bag Red Retrospot, and Postage.
+5. Customer IDs 13694, 14646, and 18102 contributed the highest sales.
+6. The United Kingdom generated the most sales, followed by Germany and EIRE.
+7. 2010 had the highest sales across the dataset.
+8. The most sales occurred during October and December, likely driven by holidays and special promotions.
+9. Tuesdays and Thursdays are the peak days for sales.
+10. The busiest hour for sales is between 12 PM and 1 PM.
+11. In the UK, October and November show the highest sales, possibly due to holiday shopping and promotions.
+12. RFM analysis indicates that Retail World lost 516 customers, but retained 971 loyal customers.
+13. Market Basket Analysis on a sample of 1,000 transactions identified frequently bought-together items that could be strategically placed to maximize profits.
+
+Strategies to Address Retail World's Business Challenges:
+
+1. Focus on high-performing products can streamline inventory management and reduce operational costs. Strategies could include prioritizing stock for these products, negotiating better supplier deals, and highlighting them in promotional campaigns.
+2. Leverage insights about peak sales periods (October, November, December), peak sales days (Tuesdays and Thursdays), and peak sales hours (12 PM - 1 PM) to time marketing campaigns and promotions effectively. Strategies could involve launching special promotions during these periods, such as flash sales, holiday discounts, or time-specific offers to drive more sales.
+3. The RFM analysis shows 971 loyal customers and 516 lost customers. Strategies for customer retention could include personalized marketing offers, loyalty programs, and targeted re-engagement campaigns for lapsed customers. Tailor offers based on customer segments identified through RFM analysis, such as exclusive discounts for frequent shoppers.
+4. Focus on expanding operations in the UK, Germany, and EIRE, which generate the most sales. Strategies could involve increasing the marketing budget for these regions, localizing product offerings, or introducing region-specific promotions to enhance market presence. Additionally, explore growth opportunities in underperforming regions.
+5. Use Market Basket Analysis to design more effective product recommendations and cross-sell promotions. Strategically place frequently bought-together items to increase the average transaction value. Strategies could include bundling related products or offering discounts on complementary items during checkout.
+6. Regularly assess product performance and customer preferences to adjust product lines according to evolving demands. Strategies may include discontinuing underperforming products, conducting surveys to gather customer feedback, and launching new product lines based on emerging trends to stay competitive.
+7. Focus on operational efficiency by optimizing supply chain management and reducing waste. This can be achieved by reducing overstocking of non-performing items, improving logistics, and ensuring that popular products are always in stock to avoid missed sales opportunities.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
